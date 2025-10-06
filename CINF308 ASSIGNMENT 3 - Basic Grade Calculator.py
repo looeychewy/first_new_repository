@@ -16,7 +16,7 @@ file = open ( 'grade_report.txt' , 'w' )
 
 #Basic user input, adds input to a list and splits into individual items
 uGrades = []
-uInput = input("Please input 5 grades you would like to calculate the average for (NO COMMAS): ")
+uInput = input("Please input 5 grades you would like to calculate the average for (WITH NO COMMAS): ")
 uGrades = uInput.split()
 
 
